@@ -3,4 +3,4 @@ LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 RUN install_packages libssl-dev libsqlite3-dev
 
-ENV BITNAMI_IMAGE_VERSION=r1
+ENV BITNAMI_IMAGE_VERSION=r2
