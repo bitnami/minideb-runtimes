@@ -1,5 +1,4 @@
 [![CircleCI](https://circleci.com/gh/bitnami/minideb-runtimes/tree/master.svg?style=shield)](https://circleci.com/gh/bitnami/minideb-runtimes/tree/master)
-[![Slack](http://slack.oss.bitnami.com/badge.svg)](http://slack.oss.bitnami.com)
 
 # `bitnami/minideb-runtimes`
 
