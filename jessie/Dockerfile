@@ -1,4 +1,4 @@
-FROM bitnami/minideb@sha256:5cd6cfd38331f53498734fed13a98d4b69b21cf3e6f45d27a910a1c2c786dc84
+FROM bitnami/minideb@sha256:914ed6a8d1952d69ea981545f303a14837f93adb4dc7be098c766b67ac9921e4
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 RUN install_packages libssl-dev libsqlite3-dev
