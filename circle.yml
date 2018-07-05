@@ -8,6 +8,7 @@ jobs:
           RELEASE_SERIES_LIST: "jessie,stretch"
           LATEST_STABLE: "jessie"
           IMAGE_NAME: minideb-runtimes
+          IS_BASE_IMAGE: 1
           DOCKER_PROJECT: bitnami
           QUAY_PROJECT: bitnami
           GCLOUD_PROJECT: bitnami-containers
