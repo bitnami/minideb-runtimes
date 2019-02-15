@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: /workdir
     docker:
-      - image: docker:17.06.0-ce-git
+      - image: docker:18.06.2-ce-git
         environment:
           RELEASE_SERIES_LIST: "jessie,stretch"
           LATEST_STABLE: "jessie"
