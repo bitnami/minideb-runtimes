@@ -1,4 +1,4 @@
-FROM bitnami/minideb@sha256:0923931bb9f73997491e1ed6ce55a1b5431ad0b7882556aa8a6b5cea8bba96ff
+FROM bitnami/minideb@sha256:084f67ac83ba1ba3c280dd32363431e43c25e4dc44b51729813ddb670b00e76f
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 RUN install_packages libssl-dev libssl1.0.2 libsqlite3-dev
@@ -9,4 +9,4 @@ RUN  sed -i 's/^PASS_MAX_DAYS.*/PASS_MAX_DAYS    90/' /etc/login.defs && \
   sed -i 's/^PASS_MIN_DAYS.*/PASS_MIN_DAYS    0/' /etc/login.defs && \
   sed -i 's/sha512/sha512 minlen=8/' /etc/pam.d/common-password
 
-ENV BITNAMI_IMAGE_VERSION=stretch-r401
+ENV BITNAMI_IMAGE_VERSION=stretch-r402
